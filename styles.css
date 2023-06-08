@@ -367,7 +367,7 @@ footer nav span:hover{
        align-items: center;
     }
 
-    #contact{
+    .contact{
         color: grey;
         text-transform: uppercase;
         box-sizing: border-box;
@@ -379,7 +379,7 @@ footer nav span:hover{
         font-family: var(--heading-font);
     }
 
-    #contact:hover{
+    .contact:hover{
         cursor: pointer;
         opacity: 0.5;
     }
@@ -401,8 +401,8 @@ footer nav span:hover{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(5, .5fr); 
         grid-template-areas: 
-        "egg transform"
-        "stand cup"
+        "transform egg"
+        "cup stand"
         "graphic-design photo"
         "testimonials testimonials"
         "img img";

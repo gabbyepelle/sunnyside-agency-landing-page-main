@@ -466,7 +466,7 @@ footer nav span:hover{
 .photography{
     background-image: url("./images/desktop/image-photography.jpg");
     width: 50vw;
-    min-height: 100vh;  
+    min-height: 60vh;  
     position: relative;
     text-align: center;
     grid-area: photo;
